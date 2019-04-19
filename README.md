@@ -15,9 +15,7 @@ using the Flickr API and its corresponding usage in this application can be view
 
 Input for retrieving popular photos from a Flickr user requires a user's ID which is
 not easily accessible. You can get IDs for usage in this application using services
-such as [idGettr](https://www.webfx.com/tools/idgettr/).
-
-
+such as [idGettr](https://www.webfx.com/tools/idgettr/).  
 
 This project is done following The Odin Project, which this project in particular can
 be found [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis).
