@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: futura;
+}
+
+.header {
+  background-color: #a6b9f2;
+  padding: 20px;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 15%;
+  background-color: #ffffe6;
+  font-family: arial;
+}
+
+form p {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="submit"] {
+  margin: 10px 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.user-photos {
+  margin-bottom: 15px;
+}
+
+.photo {
+  margin: 15px 0;
+}
+
+.attribution {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 500;
+  font-family: arial;
+  background-color: #a6b9f2; 
+}

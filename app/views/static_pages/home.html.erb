@@ -1,0 +1,22 @@
+<div class="header">
+  <h1>Simple Photo Feed</h1>
+
+  <%= form_tag(root_path, method: "get", :enforce_utf8 => false) do%>
+    <p>Enter a Flickr ID below!</p><br>
+    <%= text_field_tag :id %><br>
+    <%= submit_tag "Get Photos" %>
+  <% end %>
+</div>
+
+<% unless @photos.nil? %>
+  <h2>Photos</h2>
+  <div class="user-photos">
+    <% @photos.each do |photo| %>
+      <div class="photo">
+        <%= image_tag("https://farm#{ photo.farm }.staticflickr.com/#{ photo.server }/#{ photo.id }_#{ photo.secret }.jpg") %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<p class="attribution">This product uses the Flickr API but is not endorsed or certified by SmugMug, Inc.</p>
